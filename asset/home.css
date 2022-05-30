@@ -1,0 +1,549 @@
+:root {
+    --yellow-color: #FCB239;
+    --grey-color: #77777b;
+    --red-color: #E00105;
+}
+
+/* banner */
+.banner {
+    position: relative;
+}
+
+.slide-banner {
+    overflow: hidden;
+    /* height: 394px; */
+}
+
+.slide-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner__slide img {
+    width: 100%;
+}
+
+.banner__title {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: rgb(42 41 41 / 36%);
+}
+
+.banner__title-box {
+    padding: 0px 128px !important;
+    margin-top: 38px;
+}
+
+.banner__title h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -92px;
+}
+
+.banner__title-nav {
+    margin-top: 63px;
+}
+
+.banner__title-nav ul {
+    display: flex;
+}
+
+.banner__title-nav ul li {
+    margin-right: 12px;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.banner__title-nav ul li span {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 2px solid;
+    top: 110%;
+    display: none;
+}
+
+.banner__title-nav ul li:hover .box-span {
+    display: block;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.d-flex-wrap {
+    flex-wrap: wrap;
+}
+
+.custom-select {
+    margin-bottom: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.custom-select option {
+    padding: 10px 0 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+#thue-nha {
+    display: flex;
+}
+
+.padding-col {
+    padding: 0 4px !important;
+    margin-bottom: 16px;
+}
+
+.padding-col div {
+    width: 100% !important;
+}
+
+.search-box {
+    margin: 0 3px;
+    border-radius: 10px;
+}
+
+.search-box form {
+    height: 38px;
+    border-radius: 10px;
+}
+
+.search-box input {
+    flex-basis: 70%;
+    border: 0;
+    padding-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.search-box button {
+    flex-basis: 30%;
+    font-weight: 500;
+    border: 0;
+    background: var(--yellow-color);
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.search-box button:hover {
+    background: var(--red-color);
+}
+
+.owl-carousel .owl-stage-outer {
+    overflow: inherit !important;
+}
+
+/* content */
+.content {
+    padding-top: 55px;
+}
+
+.content__title h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.cross-box {
+    width: 80px;
+    height: 3px;
+    background-color: var(--yellow-color);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.content-box {
+    box-shadow: 4px 2px 5px 4px rgb(64 60 67 / 43%);
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    min-height: 530px;
+    margin: 0 13px;
+}
+
+.content-box:hover {
+    box-shadow: 4px 2px 5px 4px rgb(170 160 61 / 43%);
+}
+
+.content-img {
+    position: relative;
+    padding: 0 10px;
+}
+
+.content-img a {
+    width: 100%;
+    position: relative;
+}
+
+.content-img a:hover+.content-img a::before {
+    background: rgba(255, 0, 0, 0.6) !important;
+}
+
+.content-img a::before {
+    content: "Nội thất hiện có";
+    position: absolute;
+    bottom: 0;
+    background: rgba(1, 1, 1, 0.7);
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.content-img img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.content-title {
+    padding-left: 11px;
+    padding-top: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+.content-title a {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content-title a:hover {
+    color: var(--red-color);
+}
+
+.red-text {
+    color: var(--red-color);
+    font-size: 1.125rem;
+}
+
+.thongtincanho li {
+    flex: 1;
+}
+
+.icon-margin {
+    margin-right: 7px;
+}
+
+.icon-margin-l {
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.content__btn {
+    text-align: center;
+}
+
+.content__btn button {
+    border: 0;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background: var(--yellow-color);
+    color: #fff;
+    border-radius: 7px;
+}
+
+.content__btn button:hover {
+    border: 1px solid var(--yellow-color);
+    background: #fff;
+    color: var(--yellow-color);
+}
+
+/* slide */
+.slide {
+    margin-top: 38px;
+}
+
+.slide-img img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.slide-img a {
+    width: 100%
+}
+
+.slide-text {
+    font-size: 0.9375rem;
+}
+
+.splide ul {
+    padding: 5px 0 !important;
+}
+
+.slide-btn {
+    margin-top: 30px;
+}
+
+.slide-img1,
+.slide-img3 {
+    position: relative;
+}
+
+.slide-img1 a::before {
+    content: "Chiết khấu 5%";
+    position: absolute;
+    bottom: 0;
+    background: rgba(1, 1, 1, 0.7);
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.slide-img3 a::before {
+    content: "Chiết khấu 10%";
+    position: absolute;
+    bottom: 0;
+    background: rgba(1, 1, 1, 0.7);
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* banner2 */
+.banner2 {
+    margin-top: 40px;
+    /* height: 400px; */
+    max-height: 524px;
+}
+
+.banner2__img img {
+    width: 100%;
+    background-size: cover;
+}
+
+.banner2__title {
+    color: #fff;
+    position: relative;
+    top: -270px;
+    margin-left: 9%;
+}
+
+.banner2__title h3 {
+    line-height: 1.8;
+}
+
+.banner2__title p {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.banner2-box {
+    margin-top: 32px;
+    width: 86%;
+}
+
+.banner2-box1 {
+    flex-basis: 62%;
+    font-weight: 700;
+}
+
+.banner2-box2 {
+    flex-basis: 31%;
+    font-weight: 700;
+    border: 2px solid #fff;
+}
+
+/* information */
+.information {
+    padding-top: 42px;
+    padding-bottom: 50px;
+}
+
+.information-text {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.information__boxleft:hover {
+    box-shadow: 4px 2px 5px 4px rgb(170 160 61 / 43%);
+}
+
+.infor-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.infor-img img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.infor-title1 {
+    position: absolute;
+    bottom: 0;
+    width: 88%;
+    left: 2%;
+    color: #fff;
+}
+
+.infor-title1 h5 {
+    font-size: 1.125rem;
+}
+
+.style-cross {
+    border-top: 1px solid #fff;
+    width: 96%;
+    margin-bottom: 0.65rem;
+}
+
+.box-col2 {
+    flex-basis: 29%;
+}
+
+.infor-img2 {
+    flex-basis: 39%;
+    height: 128px;
+}
+
+.infor-img2 img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.infor-box-right {
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infor-title2 {
+    flex-basis: 58%;
+    font-size: 0.875rem;
+}
+
+.infor-title2 a {
+    font-weight: 700;
+    line-height: 1.8;
+    margin: -5px 0 7px;
+    color: #333;
+}
+
+.infor-title2 a:hover {
+    color: var(--red-color);
+}
+
+
+/* footer */
+.footer {
+    background: #1E1E1E;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.footer h4 {
+    font-size: 1.25rem;
+    padding-bottom: 17px;
+    font-family: UVNHONGHA;
+}
+
+.footer__box1 span {
+    font-size: 0.8125rem;
+}
+
+.footer__box1 ul li {
+    font-size: 1rem;
+    line-height: 1.9;
+    padding-top: 10px;
+}
+
+.footer__box2 {
+    padding-right: -12px;
+}
+
+.footer__box2 ul li {
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.footer__box3 ul li {
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.footer__box4 p {
+    font-size: 1rem;
+}
+
+.footer__box4 span {
+    font-weight: 500;
+}
+
+.footer__box4 form {
+    height: 45px;
+    display: flex;
+}
+
+.footer__box4 form input {
+    border: 0;
+    padding-left: 10px;
+}
+
+.footer__box4 form button {
+    width: 125px;
+    margin: 0 -12px;
+    text-transform: uppercase;
+    background: var(--red-color);
+    color: #fff;
+    border: 0;
+}
+
+.footer__box4 form button:hover {
+    color: var(--red-color);
+    background-color: #fff;
+    border: 1px solid var(--red-color);
+}
+
+.footer-bot {
+    background: #333;
+    height: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-nav ul {
+    height: 40px;
+}
+
+.footer-nav li {
+    padding: 0 10px;
+    margin: auto;
+}
+
+.footer-nav li:hover {
+    background-color: var(--red-color);
+}
+
+.footer-nav li a {
+    color: #fff;
+}

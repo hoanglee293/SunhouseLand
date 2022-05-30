@@ -1,0 +1,162 @@
+@media screen and (max-width: 990px) {
+    .header__nav {
+        display: none;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .header__logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__logo a {
+        width: 100px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .search-mobile {
+        display: block;
+    }
+
+    .banner__slide img {
+        width: 100%;
+        min-height: 523px;
+        object-fit: cover;
+    }
+
+    .banner__title {
+        padding: 0 25px;
+    }
+
+    .banner__title h3 {
+        margin-top: 0;
+    }
+
+    .banner2__img img {
+        width: auto;
+    }
+
+    .information__boxleft {
+        margin-bottom: 30px;
+    }
+
+    .fixed {
+        display: none;
+    }
+
+    .banner__title-box {
+        padding: 0 !important;
+    }
+
+    .infor-box-right {
+        margin-bottom: 0;
+    }
+
+    .header-boxsection2 {
+        justify-content: flex-start;
+    }
+
+    .boxsection2__img {
+        margin-left: 10px;
+    }
+
+    .boxsection2__title {
+        padding-left: 20px;
+    }
+
+    .footer-bot {
+        margin-top: 20px;
+    }
+
+    /* detail-file */
+    .detail__header-right {
+        margin-top: 20px;
+    }
+
+    .content-box {
+        min-height: 467px;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .container {
+        max-width: 1250px !important;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .slide-banner {
+        height: auto;
+    }
+
+    .content-box {
+        padding-bottom: 20px;
+    }
+
+    .banner2__title p {
+        font-size: inherit;
+    }
+
+    .footer__box3,
+    .footer__box4 {
+        margin-top: 15px;
+    }
+
+    .footer h4 {
+        margin-bottom: 0;
+    }
+
+    .slide-banner img {
+        background-size: cover;
+        height: 500px;
+        width: auto;
+    }
+
+    .banner2-box {
+        display: block !important;
+        width: 50%
+    }
+
+    .banner2__title {
+        margin-left: 0;
+        left: 2%;
+    }
+
+    .icon-social {
+        display: none;
+    }
+
+    .section1-sup {
+        padding-top: 10px;
+    }
+
+    .navigation ul {
+        display: -webkit-box;
+        overflow: scroll;
+        height: 26px;
+    }
+
+    .footer__box4 form {
+        height: 35px;
+    }
+
+    .custom-select {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .banner {
+        /* padding-bottom: 70px; */
+    }
+
+    .banner__slide img {
+        min-height: 691px;
+    }
+}
