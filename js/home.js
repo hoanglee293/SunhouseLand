@@ -122,6 +122,7 @@ function headerSearch() {
     x.style.display = "none";
   }
 }
+headerSearch()
 function searchMobile() {
   var x = document.getElementById("form-mobile");
   if (x.style.display === "none") {
